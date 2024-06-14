@@ -1,0 +1,76 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.boxesCard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .box-sizes-small {
+    margin-right: 20px;
+  }
+  .box-sizes-medium {
+    margin-right: 20px;
+  }
+}
+.box-sizes-small {
+  box-sizing: border-box;
+  background-color: #fbbf24;
+  font-size: medium;
+  font-family: "roboto";
+  color: aliceblue;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-sizes-medium {
+  box-sizing: border-box;
+  background-color: #38bdf8;
+  font-size: medium;
+  font-family: "roboto";
+  color: aliceblue;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-sizes-big {
+  box-sizing: border-box;
+  background-color: #ec4899;
+  font-size: medium;
+  font-family: "roboto";
+  color: aliceblue;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
